@@ -10,7 +10,7 @@ $phone=$_POST['phone'];
 $image=$_FILES['image']['name'];
 $temp=$_FILES['image']['tmp_name'];
 $target="images1/".$image;
-$password=$_POST['password'];
+$password=$_POST['password'];//password
 $cpassword=$_POST['cpassword'];
 move_uploaded_file($temp,$target);
 
